@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2026-01-28T08:36:57.134900",
+    "type": "price_change",
+    "params": {
+      "category": "coffee",
+      "change_pct": 10
+    },
+    "effects": {
+      "profit_impact": 0.8,
+      "customer_impact": -0.5,
+      "description": "Цены на coffee изменены на +10%"
+    }
+  },
+  {
+    "timestamp": "2026-01-28T08:36:57.377046",
+    "type": "promo_campaign",
+    "params": {
+      "discount": 15,
+      "duration": 7
+    },
+    "effects": {
+      "profit_impact": -0.1,
+      "customer_impact": 0.25,
+      "description": "Акция: скидка 15% на 7 дней"
+    }
+  },
+  {
+    "timestamp": "2026-01-28T08:58:06.767563",
+    "type": "price_change",
+    "params": {
+      "category": "coffee",
+      "change_pct": 10.0
+    },
+    "effects": {
+      "profit_impact": 0.8,
+      "customer_impact": -0.5,
+      "description": "Цены на coffee изменены на +10.0%"
+    }
+  }
+]
